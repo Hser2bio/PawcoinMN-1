@@ -1,6 +1,6 @@
 clear
 echo "#############################"
-echo "### PAWS IVP4 By KINGer-C ###"
+echo "### PAWCOIN IVP4 By KINGer-C ###"
 echo "#############################"
 sleep 2s
 clear
@@ -33,9 +33,9 @@ sleep 1s
 echo " The Default directory is /usr/local/bin"
 sleep 1s
 if [ $choise = '16' ]; then
-  wget https://github.com/PawcoinNew/Pawcoin/releases/download/1.0/Pawcoinv1.0-Ubuntu16.tar.gz && sudo tar xvzf Pawcoinv1.0-Ubuntu16.tar.gz -C /usr/local/bin && sudo chmod +x /usr/local/bin/pawcoin*
+  wget https://github.com/PawcoinNew/Pawcoin/releases/download/1.0/Pawcoinv3.4-Ubuntu16.tar.gz && sudo tar xvzf Pawcoinv3.4-Ubuntu16.tar.gz -C /usr/local/bin && sudo chmod +x /usr/local/bin/pawcoin*
 elif [ $choise = '18' ]; then
-  wget https://github.com/PawcoinNew/Pawcoin/releases/download/1.0/Pawcoinv1.0.Ubuntu18.tar.gz && sudo tar xvzf Pawcoinv1.0.Ubuntu18.tar.gz -C /usr/local/bin && sudo chmod +x /usr/local/bin/pawcoin*
+  wget https://github.com/PawcoinNew/Pawcoin/releases/download/3.4/Pawcoinv3.4-Ubuntu18.tar.gz && sudo tar xvzf Pawcoinv3.4.Ubuntu18.tar.gz -C /usr/local/bin && sudo chmod +x /usr/local/bin/pawcoin*
 else
   echo "That is not a valid option, Please try again" 
   exit -1
